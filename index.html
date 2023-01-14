@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="#">
+    <header>
+      <h1>Dance Registration 2023-2024</h1>
+      <h2>Fill the registration form below keenly to enter the dancing competition.
+      </h2>
+    </header>
+    <div class="name">
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname">
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname">
+    </div>
+    <div class="email">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email">
+    </div>
+    <div class="phone">
+      <label for="code">Area Code</label>
+      <input type="number" id='code' name="code">
+      <label for="phone">Phone Number</label>
+      <input type="number" id='phone' name="">
+    </div>
+
+    <div class="gender">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="Female">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="Male">
+    </div>
+    
+    <div class="address">
+      <label for="address">Street Address</label>
+      <input type="text" name="address"> <br>
+      <label for="area">Area Line Address</label>
+      <input type="text" name="area">
+    </div>
+
+    <div class="Geography">
+    <label for="country">Country</label>
+    <!-- Africa -->
+    <select id="country" name="country">
+      <option value="">...Select Country...</option>
+      <option value="DZ">Algeria</option>
+      <option value="AO">Angola</option>
+      <option value="BJ">Benin</option>
+      <option value="BW">Botswana</option>
+      <option value="BF">Burkina Faso</option>
+      <option value="BI">Burundi</option>
+      <option value="CM">Cameroon</option>
+      <option value="CV">Cape Verde</option>
+      <option value="CF">Central African Republic</option>
+      <option value="TD">Chad</option>
+      <option value="KM">Comoros</option>
+      <option value="CG">Congo - Brazzaville</option>
+      <option value="CD">Congo - Kinshasa</option>
+      <option value="CI">Côte d’Ivoire</option>
+      <option value="DJ">Djibouti</option>
+      <option value="EG">Egypt</option>
+      <option value="GQ">Equatorial Guinea</option>
+      <option value="ER">Eritrea</option>
+      <option value="ET">Ethiopia</option>
+      <option value="GA">Gabon</option>
+      <option value="GM">Gambia</option>
+      <option value="GH">Ghana</option>
+      <option value="GN">Guinea</option>
+      <option value="GW">Guinea-Bissau</option>
+      <option value="KE">Kenya</option>
+      <option value="LS">Lesotho</option>
+      <option value="LR">Liberia</option>
+      <option value="LY">Libya</option>
+      <option value="MG">Madagascar</option>
+      <option value="MW">Malawi</option>
+      <option value="ML">Mali</option>
+      <option value="MR">Mauritania</option>
+      <option value="MU">Mauritius</option>
+      <option value="YT">Mayotte</option>
+      <option value="MA">Morocco</option>
+      <option value="MZ">Mozambique</option>
+      <option value="NA">Namibia</option>
+      <option value="NE">Niger</option>
+      <option value="NG">Nigeria</option>
+      <option value="RE">Réunion</option>
+      <option value="RW">Rwanda</option>
+      <option value="SH">St. Helena</option>
+      <option value="ST">São Tomé & Príncipe</option>
+      <option value="SN">Senegal</option>
+      <option value="SC">Seychelles</option>
+      <option value="SL">Sierra Leone</option>
+      <option value="SO">Somalia</option>
+      <option value="ZA">South Africa</option>
+      <option value="SS">South Sudan</option>
+      <option value="SD">Sudan</option>
+      <option value="SZ">Eswatini</option>
+      <option value="TZ">Tanzania</option>
+      <option value="TG">Togo</option>
+      <option value="TN">Tunisia</option>
+      <option value="UG">Uganda</option>
+      <option value="EH">Western Sahara</option>
+      <option value="ZM">Zambia</option>
+      <option value="ZW">Zimbabwe</option>
+    </select>
+  <label for="state">State</label>
+    <select id="state" name="state">
+      <option value="">...Select State...</option>
+      <option value="Abuja FCT">ABUJA FCT</option>
+      <option value="Abia">ABIA</option>
+      <option value="Adamawa">ADAMAWA</option>
+      <option value="Akwa Ibom">AKWA IBOM</option>
+      <option value="Anambra">ANAMBRA</option>
+      <option value="Bauchi">BAUCHI</option>
+      <option value="Bayelsa">BAYELSA</option>
+      <option value="Benue">BENUE</option>
+      <option value="Borno">BORNO</option>
+      <option value="Cross River">CROSS RIVER</option>
+      <option value="Delta">DELTA</option>
+      <option value="Ebonyi">EBONYI</option>
+      <option value="Edo">EDO</option>
+      <option value="Ekiti">EKITI</option>
+      <option value="Enugu">ENUGU</option>
+      <option value="Gombe">GOMBE</option>
+      <option value="Imo">IMO</option>
+      <option value="Jigawa">JIGAWA</option>
+      <option value="Kaduna">KADUNA</option>
+      <option value="Kano">KANO</option>
+      <option value="Katsina">KATSINA</option>
+      <option value="Kebbi">KEBBI</option>
+      <option value="Kogi">KOGI</option>
+      <option value="Kwara">KWARA</option>
+      <option value="Lagos">LAGOS</option>
+      <option value="Nassarawa">NASSARAWA</option>
+      <option value="Niger">NIGER</option>
+      <option value="Ogun">OGUN</option>
+      <option value="Ondo">ONDO</option>
+      <option value="Osun">OSUN</option>
+      <option value="Oyo">OYO</option>
+      <option value="Plateau">PLATEAU</option>
+      <option value="Rivers">RIVERS</option>
+      <option value="Sokoto">SOKOTO</option>
+      <option value="Taraba">TARABA</option>
+      <option value="Yobe">YOBE</option>
+      <option value="Zamfara">ZAMFARA</option>
+    </select>
+    </div>
+
+    <div class="dance type">
+      <label for="salsa">Salsa</label>
+      <input type="radio" name="dance" value="Salsa">
+      <label for="Bachata">Bachata</label>
+      <input type="radio" name="dance" value="Bachata">
+      <label for="tango">Tango</label>
+      <input type="radio" name="dance" value="Tango">
+      <label for="hip hop">Hip hop</label>
+      <input type="radio" name="dance" value="Hip hop">
+      <label for="club">Club</label>
+      <input type="radio" name="dance" value="Club">
+      <input type="radio" name="dance" value="Other">
+      <input type="text" name="dance" placeholder="Other">
+    </div>
+
+    <div>
+      <label for="date">Month</label>
+      <input type="date" value="date" name="date">
+      <label for="time">Hour</label>
+      <input type="time" value="time">
+     
+    </div>
+    <div>
+      <label for="comments">Comments</label>
+      <textarea name="comments" id="" cols="30" rows="10"></textarea>
+     
+    </div>
+
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+    </body>
+  </form>
+  <html>
