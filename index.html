@@ -9,26 +9,26 @@
 </head>
 <body>
   <form action="#">
-    <header>
-      <h1>Dance Registration 2023-2024</h1>
-      <h2>Fill the registration form below keenly to enter the dancing competition.
+    <header class='header'>
+      <h1 class='header-title-name'>Dance Registration 2023-2024</h1>
+      <h2 class=" header header-paragraph">Fill the registration form below keenly to enter the dancing competition.
       </h2>
     </header>
     <div class="name">
       <label for="fname">First Name</label>
-      <input type="text" name="fname" id="fname">
+      <input type="text" name="fname" class="boxes fname" placeholder="spongebob">
       <label for="lname">Last Name</label>
-      <input type="text" name="lname" id="lname">
+      <input type="text" name="lname" class="boxes lname" placeholder="squarepants">
     </div>
     <div class="email">
       <label for="email">Email</label>
-      <input type="text" id="email" name="email">
+      <input type="text" class="boxes email" name="email" placeholder="squarepants@gmail.com">
     </div>
     <div class="phone">
       <label for="code">Area Code</label>
-      <input type="number" id='code' name="code">
+      <input type="number" class='boxes code' name="code">
       <label for="phone">Phone Number</label>
-      <input type="number" id='phone' name="">
+      <input type="number" class='boxes phone' name='number'>
     </div>
 
     <div class="gender">
@@ -40,16 +40,16 @@
     
     <div class="address">
       <label for="address">Street Address</label>
-      <input type="text" name="address"> <br>
+      <input type="text" name="address" class="boxes"> <br>
       <label for="area">Area Line Address</label>
-      <input type="text" name="area">
+      <input type="text" name="area" class="boxes">
     </div>
 
     <div class="Geography">
     <label for="country">Country</label>
-    <!-- Africa -->
-    <select id="country" name="country">
-      <option value="">...Select Country...</option>
+    
+    <select id="country" name="country" class="boxes">
+      <option value="" >...Select Country...</option>
       <option value="DZ">Algeria</option>
       <option value="AO">Angola</option>
       <option value="BJ">Benin</option>
@@ -109,8 +109,8 @@
       <option value="ZM">Zambia</option>
       <option value="ZW">Zimbabwe</option>
     </select>
-  <label for="state">State</label>
-    <select id="state" name="state">
+  <label for="state" >State</label >
+    <select id="state" name="state"class="boxes state">
       <option value="">...Select State...</option>
       <option value="Abuja FCT">ABUJA FCT</option>
       <option value="Abia">ABIA</option>
@@ -152,7 +152,7 @@
     </select>
     </div>
 
-    <div class="dance type">
+    <div class="dance-type">
       <label for="salsa">Salsa</label>
       <input type="radio" name="dance" value="Salsa">
       <label for="Bachata">Bachata</label>
@@ -163,11 +163,11 @@
       <input type="radio" name="dance" value="Hip hop">
       <label for="club">Club</label>
       <input type="radio" name="dance" value="Club">
-      <input type="radio" name="dance" value="Other">
+      <!-- <input type="radio" name="dance" value="Other"> -->
       <input type="text" name="dance" placeholder="Other">
     </div>
 
-    <div>
+    <div class ="time">
       <label for="date">Month</label>
       <input type="date" value="date" name="date">
       <label for="time">Hour</label>
@@ -176,12 +176,13 @@
     </div>
     <div>
       <label for="comments">Comments</label>
-      <textarea name="comments" id="" cols="30" rows="10"></textarea>
+      <textarea name="comments" id="" cols="30" rows="10" class="comments"></textarea>
      
     </div>
 
-    <div>
-      <input type="submit" value="Submit">
+    <div class="submit">
+      <input type="submit" value="Submit"
+      class="btn">
     </div>
     </body>
   </form>

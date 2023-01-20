@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* map out form size */
+form{
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgb(248, 245, 245);
+}
+.header{
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+}
+/* input fields */
+.name{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.boxes{
+  padding: 3px;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+.gender,.time,.comments{
+margin-top: 20px;
+}
+
+.state{
+  margin-right: 80px;
+}
+.dance-type{
+  display: flex;
+  justify-content: space-evenly;
+  ;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+ 
+}
+.btn{
+  padding: 5px 30px;
+  margin-top: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2.5px;
+}
+ 
